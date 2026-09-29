@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Google credentials and locally cached OAuth grants
+credentials*.json
+client_secret*.json
+token*.json
+service-account*.json
+.env
+*.db
+*.db-shm
+*.db-wal
+
+# Local OAuth client files and macOS metadata
+cred*.json
+.DS_Store
